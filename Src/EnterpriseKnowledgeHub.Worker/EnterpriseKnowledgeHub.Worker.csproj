@@ -10,4 +10,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EnterpriseKnowledgeHub.Application\EnterpriseKnowledgeHub.Application.csproj" />
+    <ProjectReference Include="..\EnterpriseKnowledgeHub.Infrastructure\EnterpriseKnowledgeHub.Infrastructure.csproj" />
+  </ItemGroup>
 </Project>
